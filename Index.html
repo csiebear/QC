@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" class=" is-u2f-enabled">
+  <head>
+    <meta charset='utf-8'>
+    <link href="./dist/css/login3.css" media="all" rel="stylesheet" />
+    <link href="./dist/css/login2.css" media="all" rel="stylesheet" />
+    <link href="./dist/css/login.css" media="all" rel="stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=device-width">
+	<link rel="icon" href="./img/quality icon.png">
+<style type="text/css">
+p,h1,h2,label,input,div{
+	font-family:微軟正黑體;
+	font-weight:bold;
+	color: 	#5B5B5B;
+}
+h1{
+	font-size:26px;
+}
+body {
+	background-color:#F0F0F0;
+}
+div {
+    border-color:  	#921AFF;
+}
+input{
+	border-radius:3px
+}
+</style>
+</head>
+<title>Sign in to Hwameei e-Lean</title>
+<body class="logged-out  env-production windows  session-authentication page-responsive min-width-0">
+<div class="header header-logged-out width-full pt-5 pb-4" role="banner">
+<div class="container clearfix width-full">
+    <a class="header-logo" href="#" aria-label="Homepage">
+		<img src="./img/quality icon.png" width="150px">
+    </a>
+  </div>
+</div>
+<div id="start-of-content" class="accessibility-aid"></div>
+<div role="main">
+	<div id="js-pjax-container" border:data-pjax-container>
+	<h1  style="text-align:center;">Quality Control System</h1>
+	<div class="auth-form px-3" id="login">
+
+	<form accept-charset="UTF-8" action="php/login.php" method="post"><div class="auth-form-header p-0">
+        <!--登入 華美光學精實系統-->
+    </div>
+	<div class="auth-form-body mt-3">
+	<label for="login_field">Account</label>
+        <input autocapitalize="off" autocorrect="off" autofocus="autofocus" class="form-control input-block" id="login_field" name="account" tabindex="1" type="text" placeholder="account"/>
+    <label for="password">Password</label>
+        <input class="form-control form-control input-block" id="password" name="password" tabindex="2" type="password" placeholder="password"/>
+        <input  class="btn btn-primary btn-block" sdata-disable-with="登入" name="commit" tabindex="3" type="submit" value="Login" />
+		<!--tyle="background-color: #FFAF60;color:#FFFFFF" -->
+	</div>
+	</form>
+	</div>
+	</div>
+<div class="modal-backdrop js-touch-events"></div>
+</body>
+</html>
+
